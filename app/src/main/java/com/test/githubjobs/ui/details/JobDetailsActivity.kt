@@ -43,6 +43,10 @@ class JobDetailsActivity : BaseActivity<JobDetailsViewModel, ActivityJobDetailsB
         }
     }
 
+    private fun emptyMethod1() {
+        
+    }
+
     override fun getViewBinding(): ActivityJobDetailsBinding =
         ActivityJobDetailsBinding.inflate(layoutInflater)
 }
